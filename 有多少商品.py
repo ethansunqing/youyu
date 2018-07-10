@@ -32,6 +32,7 @@ def get_goods_ids():
     return id_list
 
 
+# 把获取到的id_list组合去重
 def get_goods_id_saixuan():
     id_lists = []
     for i in range(10):
